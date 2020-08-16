@@ -1,0 +1,148 @@
+2020-08-16 11:30:10,184: Error running WSGI application
+2020-08-16 11:30:10,185: TypeError: 'module' object is not callable
+2020-08-16 11:30:12,146: Error running WSGI application
+2020-08-16 11:30:12,147: TypeError: 'module' object is not callable
+2020-08-16 11:33:26,041: Error running WSGI application
+2020-08-16 11:33:26,043: AttributeError: module 'app' has no attribute 'run'
+2020-08-16 11:33:26,044:   File "/var/www/khanfarhan10_pythonanywhere_com_wsgi.py", line 84, in <module>
+2020-08-16 11:33:26,044:     application.run()
+2020-08-16 11:33:26,044: ***************************************************
+2020-08-16 11:33:26,044: If you're seeing an import error and don't know why,
+2020-08-16 11:33:26,044: we have a dedicated help page to help you debug: 
+2020-08-16 11:33:26,044: https://help.pythonanywhere.com/pages/DebuggingImportError/
+2020-08-16 11:33:26,045: ***************************************************
+2020-08-16 11:33:36,720: Error running WSGI application
+2020-08-16 11:33:36,721: AttributeError: module 'app' has no attribute 'run'
+2020-08-16 11:33:36,721:   File "/var/www/khanfarhan10_pythonanywhere_com_wsgi.py", line 84, in <module>
+2020-08-16 11:33:36,721:     application.run()
+2020-08-16 11:33:36,721: ***************************************************
+2020-08-16 11:33:36,721: If you're seeing an import error and don't know why,
+2020-08-16 11:33:36,721: we have a dedicated help page to help you debug: 
+2020-08-16 11:33:36,722: https://help.pythonanywhere.com/pages/DebuggingImportError/
+2020-08-16 11:33:36,722: ***************************************************
+2020-08-16 11:45:27,516: Error running WSGI application
+2020-08-16 11:45:27,519: AttributeError: module 'app' has no attribute 'run'
+2020-08-16 11:45:27,519:   File "/var/www/khanfarhan10_pythonanywhere_com_wsgi.py", line 84, in <module>
+2020-08-16 11:45:27,519:     application.run()
+2020-08-16 11:45:27,520: ***************************************************
+2020-08-16 11:45:27,520: If you're seeing an import error and don't know why,
+2020-08-16 11:45:27,520: we have a dedicated help page to help you debug: 
+2020-08-16 11:45:27,520: https://help.pythonanywhere.com/pages/DebuggingImportError/
+2020-08-16 11:45:27,520: ***************************************************
+2020-08-16 11:46:07,983: Error running WSGI application
+2020-08-16 11:46:07,986: AttributeError: module 'app' has no attribute 'run'
+2020-08-16 11:46:07,986:   File "/var/www/khanfarhan10_pythonanywhere_com_wsgi.py", line 84, in <module>
+2020-08-16 11:46:07,987:     application.run()
+2020-08-16 11:46:07,987: ***************************************************
+2020-08-16 11:46:07,987: If you're seeing an import error and don't know why,
+2020-08-16 11:46:07,987: we have a dedicated help page to help you debug: 
+2020-08-16 11:46:07,987: https://help.pythonanywhere.com/pages/DebuggingImportError/
+2020-08-16 11:46:07,987: ***************************************************
+2020-08-16 11:47:56,914: Error running WSGI application
+2020-08-16 11:47:56,930: OSError: [Errno 98] Address already in use
+2020-08-16 11:47:56,930:   File "/var/www/khanfarhan10_pythonanywhere_com_wsgi.py", line 84, in <module>
+2020-08-16 11:47:56,931:     application.runner()
+2020-08-16 11:47:56,931: 
+2020-08-16 11:47:56,931:   File "/home/khanfarhan10/SimpleCalcEvalPython/app.py", line 48, in runner
+2020-08-16 11:47:56,931:     app.run()
+2020-08-16 11:47:56,931: 
+2020-08-16 11:47:56,931:   File "/home/khanfarhan10/.virtualenvs/myvirtualenv/lib/python3.6/site-packages/flask/app.py", line 990, in run
+2020-08-16 11:47:56,931:     run_simple(host, port, self, **options)
+2020-08-16 11:47:56,931: 
+2020-08-16 11:47:56,931:   File "/home/khanfarhan10/.virtualenvs/myvirtualenv/lib/python3.6/site-packages/werkzeug/serving.py", line 1052, in run_simple
+2020-08-16 11:47:56,931:     inner()
+2020-08-16 11:47:56,932: 
+2020-08-16 11:47:56,932:   File "/home/khanfarhan10/.virtualenvs/myvirtualenv/lib/python3.6/site-packages/werkzeug/serving.py", line 1005, in inner
+2020-08-16 11:47:56,932:     fd=fd,
+2020-08-16 11:47:56,932: 
+2020-08-16 11:47:56,932:   File "/home/khanfarhan10/.virtualenvs/myvirtualenv/lib/python3.6/site-packages/werkzeug/serving.py", line 848, in make_server
+2020-08-16 11:47:56,932:     host, port, app, request_handler, passthrough_errors, ssl_context, fd=fd
+2020-08-16 11:47:56,932: 
+2020-08-16 11:47:56,932:   File "/home/khanfarhan10/.virtualenvs/myvirtualenv/lib/python3.6/site-packages/werkzeug/serving.py", line 740, in __init__
+2020-08-16 11:47:56,932:     HTTPServer.__init__(self, server_address, handler)
+2020-08-16 11:47:56,932: 
+2020-08-16 11:47:56,933:   File "/usr/lib/python3.6/socketserver.py", line 456, in __init__
+2020-08-16 11:47:56,933:     self.server_bind()
+2020-08-16 11:47:56,933: 
+2020-08-16 11:47:56,933:   File "/usr/lib/python3.6/http/server.py", line 136, in server_bind
+2020-08-16 11:47:56,933:     socketserver.TCPServer.server_bind(self)
+2020-08-16 11:47:56,933: 
+2020-08-16 11:47:56,933:   File "/usr/lib/python3.6/socketserver.py", line 470, in server_bind
+2020-08-16 11:47:56,933:     self.socket.bind(self.server_address)
+2020-08-16 11:47:56,934: ***************************************************
+2020-08-16 11:47:56,934: If you're seeing an import error and don't know why,
+2020-08-16 11:47:56,934: we have a dedicated help page to help you debug: 
+2020-08-16 11:47:56,934: https://help.pythonanywhere.com/pages/DebuggingImportError/
+2020-08-16 11:47:56,934: ***************************************************
+2020-08-16 11:48:27,103: Error running WSGI application
+2020-08-16 11:48:27,105: OSError: [Errno 98] Address already in use
+2020-08-16 11:48:27,105:   File "/var/www/khanfarhan10_pythonanywhere_com_wsgi.py", line 84, in <module>
+2020-08-16 11:48:27,105:     application.runner()
+2020-08-16 11:48:27,105: 
+2020-08-16 11:48:27,105:   File "/home/khanfarhan10/SimpleCalcEvalPython/app.py", line 48, in runner
+2020-08-16 11:48:27,106:     app.run()
+2020-08-16 11:48:27,106: 
+2020-08-16 11:48:27,106:   File "/home/khanfarhan10/.virtualenvs/myvirtualenv/lib/python3.6/site-packages/flask/app.py", line 990, in run
+2020-08-16 11:48:27,106:     run_simple(host, port, self, **options)
+2020-08-16 11:48:27,106: 
+2020-08-16 11:48:27,106:   File "/home/khanfarhan10/.virtualenvs/myvirtualenv/lib/python3.6/site-packages/werkzeug/serving.py", line 1052, in run_simple
+2020-08-16 11:48:27,107:     inner()
+2020-08-16 11:48:27,107: 
+2020-08-16 11:48:27,107:   File "/home/khanfarhan10/.virtualenvs/myvirtualenv/lib/python3.6/site-packages/werkzeug/serving.py", line 1005, in inner
+2020-08-16 11:48:27,107:     fd=fd,
+2020-08-16 11:48:27,107: 
+2020-08-16 11:48:27,107:   File "/home/khanfarhan10/.virtualenvs/myvirtualenv/lib/python3.6/site-packages/werkzeug/serving.py", line 848, in make_server
+2020-08-16 11:48:27,108:     host, port, app, request_handler, passthrough_errors, ssl_context, fd=fd
+2020-08-16 11:48:27,108: 
+2020-08-16 11:48:27,108:   File "/home/khanfarhan10/.virtualenvs/myvirtualenv/lib/python3.6/site-packages/werkzeug/serving.py", line 740, in __init__
+2020-08-16 11:48:27,108:     HTTPServer.__init__(self, server_address, handler)
+2020-08-16 11:48:27,108: 
+2020-08-16 11:48:27,109:   File "/usr/lib/python3.6/socketserver.py", line 456, in __init__
+2020-08-16 11:48:27,109:     self.server_bind()
+2020-08-16 11:48:27,109: 
+2020-08-16 11:48:27,109:   File "/usr/lib/python3.6/http/server.py", line 136, in server_bind
+2020-08-16 11:48:27,109:     socketserver.TCPServer.server_bind(self)
+2020-08-16 11:48:27,109: 
+2020-08-16 11:48:27,110:   File "/usr/lib/python3.6/socketserver.py", line 470, in server_bind
+2020-08-16 11:48:27,110:     self.socket.bind(self.server_address)
+2020-08-16 11:48:27,110: ***************************************************
+2020-08-16 11:48:27,110: If you're seeing an import error and don't know why,
+2020-08-16 11:48:27,110: we have a dedicated help page to help you debug: 
+2020-08-16 11:48:27,110: https://help.pythonanywhere.com/pages/DebuggingImportError/
+2020-08-16 11:48:27,111: ***************************************************
+2020-08-16 11:53:45,207: Error running WSGI application
+2020-08-16 11:53:45,208: TypeError: 'module' object is not callable
+2020-08-16 12:00:11,899: Error running WSGI application
+2020-08-16 12:00:11,900: TypeError: 'module' object is not callable
+2020-08-16 12:00:13,218: Error running WSGI application
+2020-08-16 12:00:13,219: TypeError: 'module' object is not callable
+2020-08-16 13:07:43,710: Error running WSGI application
+2020-08-16 13:07:43,711: TypeError: 'module' object is not callable
+2020-08-16 13:07:53,746: Error running WSGI application
+2020-08-16 13:07:53,746: TypeError: 'module' object is not callable
+2020-08-16 17:52:35,451: Error running WSGI application
+2020-08-16 17:52:35,460: TypeError: 'module' object is not callable
+2020-08-16 18:00:56,370: Error running WSGI application
+2020-08-16 18:00:56,373: ModuleNotFoundError: No module named 'app.app'; 'app' is not a package
+2020-08-16 18:00:56,373:   File "/var/www/khanfarhan10_pythonanywhere_com_wsgi.py", line 83, in <module>
+2020-08-16 18:00:56,373:     import app.app as application
+2020-08-16 18:00:56,374: ***************************************************
+2020-08-16 18:00:56,374: If you're seeing an import error and don't know why,
+2020-08-16 18:00:56,374: we have a dedicated help page to help you debug: 
+2020-08-16 18:00:56,374: https://help.pythonanywhere.com/pages/DebuggingImportError/
+2020-08-16 18:00:56,374: ***************************************************
+2020-08-16 18:01:05,167: Error running WSGI application
+2020-08-16 18:01:05,169: ModuleNotFoundError: No module named 'app.app'; 'app' is not a package
+2020-08-16 18:01:05,170:   File "/var/www/khanfarhan10_pythonanywhere_com_wsgi.py", line 83, in <module>
+2020-08-16 18:01:05,170:     import app.app as application
+2020-08-16 18:01:05,170: ***************************************************
+2020-08-16 18:01:05,170: If you're seeing an import error and don't know why,
+2020-08-16 18:01:05,170: we have a dedicated help page to help you debug: 
+2020-08-16 18:01:05,170: https://help.pythonanywhere.com/pages/DebuggingImportError/
+2020-08-16 18:01:05,171: ***************************************************
+2020-08-16 18:04:50,892: <string>:1: SyntaxWarning: 'int' object is not callable; perhaps you missed a comma?
+2020-08-16 18:04:59,728: <string>:1: SyntaxWarning: 'int' object is not callable; perhaps you missed a comma?
+2020-08-16 18:05:07,025: <string>:1: SyntaxWarning: 'int' object is not callable; perhaps you missed a comma?
+×
+Drag and Drop
+The image will be downloaded

@@ -1,0 +1,148 @@
+10:47 ~ $ git clone https://github.com/khanfarhan10/SimpleCalcEvalPython.git
+Cloning into 'SimpleCalcEvalPython'...
+remote: Enumerating objects: 20, done.
+remote: Counting objects: 100% (20/20), done.
+remote: Compressing objects: 100% (14/14), done.
+remote: Total 20 (delta 3), reused 0 (delta 0), pack-reused 0
+Unpacking objects: 100% (20/20), done.
+Checking connectivity... done.
+11:06 ~ $ ls
+README.txt  SimpleCalcEvalPython
+mkvirtualenv --python=/usr/bin/python3.6 my-virtualenv  # use whichever python version you prefer
+11:07 ~ $ mkvirtualenv env --python='usr/bin/python3.7.6'
+The path usr/bin/python3.7.6 (from --python=usr/bin/python3.7.6) does not exist
+11:11 ~ $ mkvirtualenv env --python='usr/bin/python3.8'                                                                                                                
+The path usr/bin/python3.8 (from --python=usr/bin/python3.8) does not exist
+11:11 ~ $ mkvirtualenv myvirtualenv --python=/usr/bin/python3.6
+Running virtualenv with interpreter /usr/bin/python3.6
+Already using interpreter /usr/bin/python3.6
+Using base prefix '/usr'
+New python executable in /home/khanfarhan10/.virtualenvs/myvirtualenv/bin/python3.6
+Also creating executable in /home/khanfarhan10/.virtualenvs/myvirtualenv/bin/python
+Installing setuptools, pip, wheel...
+done.
+virtualenvwrapper.user_scripts creating /home/khanfarhan10/.virtualenvs/myvirtualenv/bin/predeactivate
+virtualenvwrapper.user_scripts creating /home/khanfarhan10/.virtualenvs/myvirtualenv/bin/postdeactivate
+virtualenvwrapper.user_scripts creating /home/khanfarhan10/.virtualenvs/myvirtualenv/bin/preactivate
+virtualenvwrapper.user_scripts creating /home/khanfarhan10/.virtualenvs/myvirtualenv/bin/postactivate
+virtualenvwrapper.user_scripts creating /home/khanfarhan10/.virtualenvs/myvirtualenv/bin/get_env_details
+(myvirtualenv) 11:17 ~ $ cd SimpleCalcEvalPython/
+(myvirtualenv) 11:17 ~/SimpleCalcEvalPython (master)$ ls
+README.md  app.py  requirements.txt  templates
+(myvirtualenv) 11:17 ~/SimpleCalcEvalPython (master)$ pip install -r requirements.txt
+Looking in links: /usr/share/pip-wheels
+Processing /usr/share/pip-wheels/Flask-1.1.1-py2.py3-none-any.whl
+Collecting Werkzeug>=0.15
+  Downloading Werkzeug-1.0.1-py2.py3-none-any.whl (298 kB)
+     |████████████████████████████████| 298 kB 14.0 MB/s 
+Processing /usr/share/pip-wheels/itsdangerous-1.1.0-py2.py3-none-any.whl
+Collecting Jinja2>=2.10.1
+  Downloading Jinja2-2.11.2-py2.py3-none-any.whl (125 kB)
+     |████████████████████████████████| 125 kB 17.0 MB/s 
+Collecting click>=5.1
+  Downloading click-7.1.2-py2.py3-none-any.whl (82 kB)
+     |████████████████████████████████| 82 kB 273 kB/s 
+Processing /usr/share/pip-wheels/MarkupSafe-1.1.1-cp36-cp36m-manylinux1_x86_64.whl
+Installing collected packages: Werkzeug, itsdangerous, MarkupSafe, Jinja2, click, Flask
+Successfully installed Flask-1.1.1 Jinja2-2.11.2 MarkupSafe-1.1.1 Werkzeug-1.0.1 click-7.1.2 itsdangerous-1.1.0
+(myvirtualenv) 11:18 ~/SimpleCalcEvalPython (master)$ 
+
+
+
+
+
+
+
+11:42 ~ $ git clone https://github.com/khanfarhan10/SimpleCalcEvalPython.git
+Cloning into 'SimpleCalcEvalPython'...
+remote: Enumerating objects: 23, done.
+remote: Counting objects: 100% (23/23), done.
+remote: Compressing objects: 100% (17/17), done.
+remote: Total 23 (delta 5), reused 0 (delta 0), pack-reused 0
+Unpacking objects: 100% (23/23), done.
+Checking connectivity... done.
+11:42 ~ $ ls
+README.txt  SimpleCalcEvalPython
+11:42 ~ $ mkvirtualenv myvirtualenv --python=/usr/bin/python3.6
+mkvirtualenv --python=/usr/bin/python3.6 my-virtualenv  # use whichever python version you prefer
+Running virtualenv with interpreter /usr/bin/python3.6
+Already using interpreter /usr/bin/python3.6
+Using base prefix '/usr'
+New python executable in /home/khanfarhan10/.virtualenvs/myvirtualenv/bin/python3.6
+Also creating executable in /home/khanfarhan10/.virtualenvs/myvirtualenv/bin/python
+Installing setuptools, pip, wheel...
+done.
+virtualenvwrapper.user_scripts creating /home/khanfarhan10/.virtualenvs/myvirtualenv/bin/predeactivate
+virtualenvwrapper.user_scripts creating /home/khanfarhan10/.virtualenvs/myvirtualenv/bin/postdeactivate
+virtualenvwrapper.user_scripts creating /home/khanfarhan10/.virtualenvs/myvirtualenv/bin/preactivate
+virtualenvwrapper.user_scripts creating /home/khanfarhan10/.virtualenvs/myvirtualenv/bin/postactivate
+virtualenvwrapper.user_scripts creating /home/khanfarhan10/.virtualenvs/myvirtualenv/bin/get_env_details
+(myvirtualenv) 11:43 ~ $ cd SimpleCalcEvalPython/
+(myvirtualenv) 11:44 ~/SimpleCalcEvalPython (master)$ ls
+README.md  app.py  requirements.txt  templates
+(myvirtualenv) 11:44 ~/SimpleCalcEvalPython (master)$ pip install -r requirements.txt
+Looking in links: /usr/share/pip-wheels
+Processing /usr/share/pip-wheels/Flask-1.1.1-py2.py3-none-any.whl
+Collecting Werkzeug>=0.15
+  Downloading Werkzeug-1.0.1-py2.py3-none-any.whl (298 kB)
+     |████████████████████████████████| 298 kB 18.7 MB/s 
+Processing /usr/share/pip-wheels/itsdangerous-1.1.0-py2.py3-none-any.whl
+Collecting Jinja2>=2.10.1
+  Downloading Jinja2-2.11.2-py2.py3-none-any.whl (125 kB)
+     |████████████████████████████████| 125 kB 17.3 MB/s 
+Collecting click>=5.1
+  Downloading click-7.1.2-py2.py3-none-any.whl (82 kB)
+     |████████████████████████████████| 82 kB 209 kB/s 
+Processing /usr/share/pip-wheels/MarkupSafe-1.1.1-cp36-cp36m-manylinux1_x86_64.whl
+Installing collected packages: Werkzeug, itsdangerous, MarkupSafe, Jinja2, click, Flask
+Successfully installed Flask-1.1.1 Jinja2-2.11.2 MarkupSafe-1.1.1 Werkzeug-1.0.1 click-7.1.2 itsdangerous-1.1.0
+(myvirtualenv) 11:44 ~/SimpleCalcEvalPython (master)$ 
+
+
+
+13:02 ~ $ git clone https://github.com/khanfarhan10/SimpleCalcEvalPython.git
+Cloning into 'SimpleCalcEvalPython'...
+remote: Enumerating objects: 28, done.
+remote: Counting objects: 100% (28/28), done.
+remote: Compressing objects: 100% (22/22), done.
+remote: Total 28 (delta 7), reused 0 (delta 0), pack-reused 0
+Unpacking objects: 100% (28/28), done.
+Checking connectivity... done.
+13:02 ~ $ ls
+README.txt  SimpleCalcEvalPython
+13:02 ~ $ mkvirtualenv --python=/usr/bin/python3.7.6 my-virtualenv                                                                                                     
+The path /usr/bin/python3.7.6 (from --python=/usr/bin/python3.7.6) does not exist
+13:03 ~ $ mkvirtualenv myvirtualenv --python=/usr/bin/python3.7.6
+The path /usr/bin/python3.7.6 (from --python=/usr/bin/python3.7.6) does not exist
+13:03 ~ $ mkvirtualenv myvirtualenv --python=/usr/bin/python3.8
+Running virtualenv with interpreter /usr/bin/python3.8
+Already using interpreter /usr/bin/python3.8
+Using base prefix '/usr'
+New python executable in /home/khanfarhan10/.virtualenvs/myvirtualenv/bin/python3.8
+Also creating executable in /home/khanfarhan10/.virtualenvs/myvirtualenv/bin/python
+Installing setuptools, pip, wheel...
+done.
+virtualenvwrapper.user_scripts creating /home/khanfarhan10/.virtualenvs/myvirtualenv/bin/predeactivate
+virtualenvwrapper.user_scripts creating /home/khanfarhan10/.virtualenvs/myvirtualenv/bin/postdeactivate
+virtualenvwrapper.user_scripts creating /home/khanfarhan10/.virtualenvs/myvirtualenv/bin/preactivate
+virtualenvwrapper.user_scripts creating /home/khanfarhan10/.virtualenvs/myvirtualenv/bin/postactivate
+virtualenvwrapper.user_scripts creating /home/khanfarhan10/.virtualenvs/myvirtualenv/bin/get_env_details
+(myvirtualenv) 13:04 ~ $ cd SimpleCalcEvalPython/
+(myvirtualenv) 13:05 ~/SimpleCalcEvalPython (master)$ pip install -r requirements.txt
+Looking in links: /usr/share/pip-wheels
+Processing /usr/share/pip-wheels/Flask-1.1.1-py2.py3-none-any.whl
+Collecting Jinja2>=2.10.1
+  Downloading Jinja2-2.11.2-py2.py3-none-any.whl (125 kB)
+     |████████████████████████████████| 125 kB 11.8 MB/s 
+Processing /usr/share/pip-wheels/itsdangerous-1.1.0-py2.py3-none-any.whl
+Collecting click>=5.1
+  Downloading click-7.1.2-py2.py3-none-any.whl (82 kB)
+     |████████████████████████████████| 82 kB 171 kB/s 
+Collecting Werkzeug>=0.15
+  Downloading Werkzeug-1.0.1-py2.py3-none-any.whl (298 kB)
+     |████████████████████████████████| 298 kB 14.6 MB/s 
+Collecting MarkupSafe>=0.23
+  Downloading MarkupSafe-1.1.1-cp38-cp38-manylinux1_x86_64.whl (32 kB)
+Installing collected packages: MarkupSafe, Jinja2, itsdangerous, click, Werkzeug, Flask
+Successfully installed Flask-1.1.1 Jinja2-2.11.2 MarkupSafe-1.1.1 Werkzeug-1.0.1 click-7.1.2 itsdangerous-1.1.0
+(myvirtualenv) 13:05 ~/SimpleCalcEvalPython (master)$ 
