@@ -43,3 +43,7 @@ def send():
 if __name__ == "__main__":
     app.run(debug=True)
     # maybe it runs now!
+
+def runner():
+    app.run()
+    # maybe it runs now!
