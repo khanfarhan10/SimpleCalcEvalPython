@@ -18,5 +18,5 @@ Some great tutorials that I learnt coding for this app are :
 * GeeksforGeeks Explanation of the Eval Function : [eval in Python - by  Nikhil Kumar](https://www.geeksforgeeks.org/eval-in-python/)
 * Detailed Article on Towards Data Science : [Python eval() built-in-function - by Tanu N Prabhu](https://towardsdatascience.com/python-eval-built-in-function-601f87db191)  
 
-###### Note: If the live demo doesn't work anymore, or you need help on the topic feel free to reach out at njrfarhandasilva10@gmail.com to fix this.
+###### Note: If the live demo doesn't work anymore, or you need help on the topic feel free to reach out at njrfarhandasilva10@gmail.com.
 
