@@ -35,11 +35,19 @@ def send():
         expression = request.form['expression']
         try:
             results = eval(expression)
-        except:
-            return render_template('index.html', results="Oops! Your expression syntax is incorrect!")
+            print(results)
+        except Exception as e:
+            message = """Oops! 
+            Your expression syntax is incorrect!
+            The full returned Traceback:
+            """+str(e)
+            return render_template('index.html', results=message)
         return render_template('index.html', results=results)
 
 
 if __name__ == "__main__":
+    #import sys
+    # print(sys.version)
+    # 3.7.6 (default, Jan  8 2020, 20:23:39) [MSC v.1916 64 bit (AMD64)]
     app.run(debug=True)
     # maybe it runs now!
