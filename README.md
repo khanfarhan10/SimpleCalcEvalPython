@@ -8,8 +8,8 @@
 ![Simple Expression](/images/simple.png)
 ![Simple Expression](/images/simple2.png)  
 
-### Complex Expressions
-![Complex Expression](/images/complex.png)  
+### Complicated Expressions
+![Complicated Expression](/images/complicated.png)  
 
 # Tutorials  
 Some great tutorials that I learnt coding for this app are :
