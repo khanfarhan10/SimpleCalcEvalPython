@@ -1,6 +1,9 @@
 # Simple Flask Calculator using Eval in Python
 #### Simple Calculator App using the eval function in Python. Deployed on the server using Flask.
-#### [Watch the live demo of the app here](http://khanfarhan10.pythonanywhere.com/) at http://khanfarhan10.pythonanywhere.com/ !  
+#### [Watch the live demo of the app here](http://khanfarhan10.pythonanywhere.com/) at khanfarhan10.pythonanywhere.com/ !  
+
+#### [Code for the app is available at](https://github.com/khanfarhan10/SimpleCalcEvalPython) at github.com/khanfarhan10/SimpleCalcEvalPython !  
+
 
 # Usage  
 
