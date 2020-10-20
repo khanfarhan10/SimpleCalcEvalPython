@@ -24,3 +24,8 @@ Some great tutorials that I learnt coding for this app are :
 
 ###### Note: If the live demo doesn't work anymore, or you need help on the topic feel free to reach out at njrfarhandasilva10@gmail.com.
 
+## Run locally
+On Windows, open cmd:
+cd C:\Users\farha\Documents\GitHub\SimpleCalcEvalPython
+set FLASK_APP=app.py
+flask run
