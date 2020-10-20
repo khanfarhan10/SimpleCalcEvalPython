@@ -26,6 +26,13 @@ Some great tutorials that I learnt coding for this app are :
 
 ## Run locally
 On Windows, open cmd:
-cd C:\Users\farha\Documents\GitHub\SimpleCalcEvalPython
-set FLASK_APP=app.py
-flask run
+
+* cd C:\Users\farha\Documents\GitHub\SimpleCalcEvalPython
+* set FLASK_APP=app.py
+* flask run
+
+**OR**
+
+* cd C:\Users\farha\Documents\GitHub\SimpleCalcEvalPython
+* python app.py
+
